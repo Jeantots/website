@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href= "index.css">
+</head>
+<body>
+   <form>
+    <h1>
+        STUDENT SURVEY 
+    </h1>
+    <hr>
+   <div class="details">
+        <label> NAME</label> <br><br>
+        <input type = "text" placeholder="First Name">
+        <input type = "text" placeholder="Last Name" class="align"> <br><br><br>
+            <label > EMAIL</label> <br><br>
+        <input type = "email" name="email" placeholder="Enter your email">
+        <div class="dates">
+            <label id="date"> Birth Date</label> <br><br>
+            <input type="date" name="date" class="alignment">
+        </div>
+    </div>
+        <div class="radio">
+            <p>Please select your Year Level:</p> <br>
+            <input type="radio" name="size" id=""><span> 1st Year</span> <br><br>
+            <input type="radio" name="size" id=""><span> 2nd Year</span> <br><br>
+            <input type="radio" name="size" id=""><span> 3rd Year</span> <br><br>
+            <input type="radio" name="size" id=""><span> 4th Year</span> <br><br>
+           <p>How would you rate the following based on your experience at NTC:</p> <br><br>
+
+           <table>
+            <body>
+                <tr>
+                    <th></th>
+                  <th> Strongly Disagree </th>
+                  <th> Somewhat Disagree </th>
+                  <th> Neutral </th>
+                  <th> Somewhat Agree </th>
+                  <th> Strongly Agree </th>
+                </tr>
+                <tr>
+                    <label><th>Teacher teat one another with respect</th></label>
+                    <td><input type="radio" name= "respect" id=""></td>
+                    <td><input type="radio" name= "respect" id=""></td>
+                    <td><input type="radio" name= "respect" id=""></td>
+                    <td><input type="radio" name= "respect" id=""></td>
+                    <td><input type="radio" name= "respect" id=""></td>
+                </tr>
+                <tr>
+                    <label><th>Faculty and staff value what students have to say</th></label>
+
+                    <td><input type="radio" name= "value" id=""></td>
+                    <td><input type="radio" name= "value" id=""></td>
+                    <td><input type="radio" name= "value" id=""></td>
+                    <td><input type="radio" name= "value" id=""></td>
+                    <td><input type="radio" name= "value" id=""></td>
+                </tr>
+                <tr>
+                    <label><th>The school environment is safe for both students andd teachers</th></label>
+                    <td><input type="radio" name= "safety" id=""></td>
+                    <td><input type="radio" name= "safety" id=""></td>
+                    <td><input type="radio" name= "safety" id=""></td>
+                    <td><input type="radio" name= "safety" id=""></td>
+                    <td><input type="radio" name= "safety" id=""></td>
+                </tr>
+                <tr>
+                    <label><th>The faculty and staff respect all races and cultures</th></label>
+                    <td><input type="radio" name= "races" id=""></td>
+                    <td><input type="radio" name= "races" id=""></td>
+                    <td><input type="radio" name= "races" id=""></td>
+                    <td><input type="radio" name= "races" id=""></td>
+                    <td><input type="radio" name= "races" id=""></td>
+                </tr>
+                <tr>
+                    <label><th>Most teachers are enthusiastic about teaching and communicate this to students</th></label>
+                    <td><input type="radio" name= "enthusiastic"></td>
+                    <td><input type="radio" name= "enthusiastic"></td>
+                    <td><input type="radio" name= "enthusiastic"></td>
+                    <td><input type="radio" name= "enthusiastic"></td>
+                    <td><input type="radio" name= "enthusiastic"></td>
+                </tr>
+            </Tbody>
+           </table>
+        </div>
+            <div class="questions">
+                <label>Are you gonna enroll at NTC next  school year?</label><br><br>
+                <input type="radio" name="enroll" id=""><span> YES</span> <br><br>
+                <input type="radio" name="enroll" id=""><span> NO </span> <br><br>
+                <label>Will you recommend NTC to other upcoming college students?</label><br><br>
+                <input type="radio" name="recommend" id=""><span> YES</span> <br><br>
+                <input type="radio" name="recommend" id=""><span> NO </span> <br><br>
+            </div>
+            <div class = "feedback"></div>
+              <label>Please give us a feedback or leave a comment.</label><br><br>
+              <textarea name="feedback" id="" cols="70" rows="10"></textarea><br><br>
+            </div>
+
+                <hr> <br>
+                <div class="btn">
+                    <button>SUBMIT</button>
+               </div>
+            </div>
+      </form>  
+   </body>
+</html>
